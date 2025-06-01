@@ -10,7 +10,7 @@ Más de 60000€                45%
 Escribir un programa que pregunte al usuario su renta anual y muestre por pantalla el tipo impositivo que le corresponde. (10p)
 """
 
-renta = float(input("Registra tu renta anual: "))
+renta = float(input("Registra tu renta anual  : "))
 if renta < 10000:
     print("El tipo impositivo que te le corresponde es del 5% ")
 elif renta < 20000:
